@@ -12,7 +12,7 @@ const Home = () => {
     // const apps = useLoaderData()
 
     const { apps } = useApps()
-    const featuredApps = apps.slice(0, 6)
+    const featuredApps = apps.slice(0, 8)
 
 
 
@@ -21,7 +21,7 @@ const Home = () => {
         <div>
 
             <div className='text-center'>
-                <h1 className='text-[72px] font-semibold'>We Build <br /><span className='text-[#632ee3]'>Productive</span> Apps</h1>
+                <h1 className='text-[72px] font-semibold'>We Build <br /><span className='text-[#632ee3] font-bold'>Productive</span> Apps</h1>
                 <p className='text-gray-600'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br />
                     Our goal is to turn your ideas into digital experiences that truly make an impact.
                 </p>
@@ -70,7 +70,7 @@ const Home = () => {
                     <h1 className='font-bold text-5xl mb-2'>Trending Apps</h1>
                     <p className='text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4'>
+                <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4'>
                     {
                         featuredApps.map(app => (
                             <AppsCards key={app.id} app={app}></AppsCards>
@@ -80,7 +80,8 @@ const Home = () => {
             </div>
 
            
-           <button className='flex items-center justify-center mb-20 mt-10 w-full '><Link className='btn max-w-36  bg-linear-to-r from-[#632ee3] to-[#9f62f2] text-white ' to={"/apps"}>Show All</Link></button>
+           <button className='flex items-center justify-center mb-20 mt-10 w-full '><Link className='btn max-w-36  bg-linear-to-r from-[#632ee3] to-[#9f62f2] text-white ' to={'/apps'}>Show All</Link></button>
+            
 
 
         </div>
