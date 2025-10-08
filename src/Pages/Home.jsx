@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link, useLoaderData } from 'react-router';
+import { Link} from 'react-router';
 import AppsDetails from './AppsDetails';
 import AppsCards from './AppsCards';
 import playstore from '../../public/Images/fi_16076057.png'
 import Apples from '../../public/Images/fi_5977575.png';
 import hero from '../../public/Images/hero.png'
+import useApps from '../Hooks/useApps';
 
 
 const Home = () => {
-    const apps = useLoaderData()
+    // const apps = useLoaderData()
+
+    const { apps } = useApps()
     const featuredApps = apps.slice(0, 6)
 
 
