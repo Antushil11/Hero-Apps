@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/861/861512.png",
+    "title": "EcoGrow: Smart Plant Care Assistant",
+    "companyName": "Greenify Labs",
+    "id": 1,
+    "description": "EcoGrow helps you care for your plants using AI-based insights. Monitor soil moisture, sunlight exposure, and watering schedules in real-time. Perfect for both beginners and professional gardeners who want lush, healthy plants all year long without complicated setup.",
+    "size": 42,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": "6M+",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 530 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732228.png",
+    "title": "Learnify: Personalized Learning Hub",
+    "companyName": "BrightMind Co.",
+    "id": 2,
+    "description": "Learnify tailors lessons to your pace and preferences using adaptive AI. Whether learning new skills or studying academic topics, it offers interactive videos, quizzes, and progress tracking tools designed to keep learners engaged and motivated daily.",
+    "size": 55,
+    "reviews": 27000,
+    "ratingAvg": 4.6,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 20130 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+    "title": "FitWave: AI Fitness & Workout Tracker",
+    "companyName": "ActivePulse",
+    "id": 3,
+    "description": "FitWave provides personalized fitness routines, calorie tracking, and goal setting based on your body data. Whether you’re at the gym or home, FitWave motivates you through smart progress reports and real-time performance analytics.",
+    "size": 60,
+    "reviews": 18000,
+    "ratingAvg": 4.5,
+    "downloads": "8M+",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 13140 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    "title": "SnapGo: Quick Photo Editor & Filters",
+    "companyName": "PixelCraft",
+    "id": 4,
+    "description": "SnapGo transforms your photos with one tap. Use premium filters, lighting adjustments, and background blur tools for stunning results. Loved by creators who need fast, professional photo edits directly from their phones.",
+    "size": 48,
+    "reviews": 23000,
+    "ratingAvg": 4.8,
+    "downloads": "12M+",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 16400 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+    "title": "NotePlus: Smart Notes & Organizer",
+    "companyName": "OrganizeTech",
+    "id": 5,
+    "description": "NotePlus syncs your ideas, lists, and voice notes across all devices. Create folders, tags, and reminders for seamless organization. Ideal for students and professionals who want quick, clean, and searchable note storage anytime.",
+    "size": 38,
+    "reviews": 11000,
+    "ratingAvg": 4.3,
+    "downloads": "7M+",
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 6920 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1048/1048949.png",
+    "title": "CodeBase: Learn Coding Fast",
+    "companyName": "DevCore Systems",
+    "id": 6,
+    "description": "CodeBase offers beginner-to-advanced coding tutorials with interactive challenges. Learn HTML, CSS, Python, and more through gamified lessons designed to build your logic and problem-solving skills efficiently and enjoyably.",
+    "size": 63,
+    "reviews": 32000,
+    "ratingAvg": 4.9,
+    "downloads": "18M+",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 650 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 22600 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920256.png",
+    "title": "TravelMate: Explore & Plan Adventures",
+    "companyName": "SkyLine Apps",
+    "id": 7,
+    "description": "TravelMate is your ultimate travel planner. It helps you find flights, hotels, and must-visit spots. Use smart itinerary features, offline maps, and travel tips to make your trips stress-free and memorable every time.",
+    "size": 66,
+    "reviews": 26000,
+    "ratingAvg": 4.7,
+    "downloads": "15M+",
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 18930 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/4401/4401407.png",
+    "title": "MindEase: Meditation & Sleep Helper",
+    "companyName": "CalmSphere",
+    "id": 8,
+    "description": "MindEase offers guided meditations, calming music, and daily breathing exercises to reduce stress and improve sleep quality. Build a peaceful routine and track your emotional balance day by day.",
+    "size": 40,
+    "reviews": 17500,
+    "ratingAvg": 4.9,
+    "downloads": "11M+",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2092/2092688.png",
+    "title": "ChefPro: Recipes & Kitchen Planner",
+    "companyName": "TasteCraft",
+    "id": 9,
+    "description": "ChefPro makes cooking fun and effortless. Explore thousands of recipes, meal plans, and kitchen timers. Save your favorite dishes and get ingredient suggestions based on your pantry items instantly.",
+    "size": 53,
+    "reviews": 19000,
+    "ratingAvg": 4.6,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 12350 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3050/3050525.png",
+    "title": "FocusZen: Mind Clarity & Productivity",
+    "companyName": "ZenFlow Apps",
+    "id": 10,
+    "description": "FocusZen helps you stay productive through focus sessions, calming music, and task timers. Perfect for students, professionals, and creatives who want distraction-free work and a healthy balance between focus and relaxation.",
+    "size": 44,
+    "reviews": 15800,
+    "ratingAvg": 4.8,
+    "downloads": "14M+",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 9950 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/919/919873.png",
+    "title": "StreamBox: Movies & TV Hub",
+    "companyName": "CineWave",
+    "id": 11,
+    "description": "StreamBox offers HD streaming of your favorite movies and TV shows. Build watchlists, explore trending series, and enjoy ad-free viewing with customizable subtitles and multi-device sync support.",
+    "size": 85,
+    "reviews": 68000,
+    "ratingAvg": 4.6,
+    "downloads": "25M+",
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 54700 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2769/2769884.png",
+    "title": "PetCare: Vet & Pet Health Tracker",
+    "companyName": "HappyPaws",
+    "id": 12,
+    "description": "PetCare helps manage your pets’ health and happiness. Track vaccinations, diet, vet visits, and reminders for grooming. Designed for pet owners who want simple tools to care for their furry friends.",
+    "size": 52,
+    "reviews": 14500,
+    "ratingAvg": 4.8,
+    "downloads": "8M+",
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 11080 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3669/3669945.png",
+    "title": "FitFuel: Healthy Diet & Meal Plans",
+    "companyName": "NutriTech",
+    "id": 13,
+    "description": "FitFuel generates meal plans and calorie tracking designed by nutritionists. Get daily food suggestions, grocery lists, and health reports based on your fitness goals and body type.",
+    "size": 57,
+    "reviews": 20800,
+    "ratingAvg": 4.6,
+    "downloads": "13M+",
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 12320 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1048/1048953.png",
+    "title": "MusicFlow: Stream & Relax",
+    "companyName": "WaveSound Studio",
+    "id": 14,
+    "description": "MusicFlow delivers personalized playlists and curated radio stations. Enjoy millions of songs, podcasts, and mood-based mixes designed to energize your workouts or calm your evenings.",
+    "size": 70,
+    "reviews": 39000,
+    "ratingAvg": 4.7,
+    "downloads": "22M+",
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 6600 },
+      { "name": "5 star", "count": 29700 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/614/614659.png",
+    "title": "TaskMate: To-Do List & Reminder",
+    "companyName": "DailyFlow Ltd.",
+    "id": 15,
+    "description": "TaskMate helps you organize your day with powerful task management tools. Set goals, priorities, and recurring reminders. Its clean design keeps your productivity high and stress low.",
+    "size": 39,
+    "reviews": 17000,
+    "ratingAvg": 4.8,
+    "downloads": "9M+",
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 11340 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+    "title": "SafeNet: Password & Vault Manager",
+    "companyName": "SecureByte Inc.",
+    "id": 16,
+    "description": "SafeNet stores your passwords, documents, and personal info securely in one place. With end-to-end encryption and fingerprint login, it ensures your digital life stays safe and accessible only to you.",
+    "size": 64,
+    "reviews": 25000,
+    "ratingAvg": 4.9,
+    "downloads": "19M+",
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 17460 }
+    ]
+  }
+]
