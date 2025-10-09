@@ -24,14 +24,14 @@ const Apps = () => {
                 loading ? (<LoadingSpinner></LoadingSpinner>) : (
                     <div className='max-w-[1440px] mx-auto'>
                         <div className='text-center mt-20 mb-4'>
-                            <h1 className='font-bold text-5xl mb-2'>Our All Applications</h1>
+                            <h1 className='font-bold lg:text-5xl text-[40px] md:text-4xl mb-2'>Our All Applications</h1>
                             <p className='text-gray-600'>Explore All Apps on the
                                 Market developed by us. We code for Millions</p>
                         </div>
 
-                        <div className='flex justify-between items-center mb-4'>
-                            <h2 className='font-semibold text-2xl'><span>({searchApps.length})</span>Apps Found</h2>
-                            <label className="input">
+                        <div className='md:flex lg:flex justify-between items-center mb-4 ml-2'>
+                            <h2 className='font-semibold lg:text-2xl md:text-2xl'><span>({searchApps.length})</span>Apps Found</h2>
+                            <label className="input max-w-full">
                                 <input
                                     value={search}
                                     onChange={(e) => setSearch(e.target.value)}
@@ -41,7 +41,7 @@ const Apps = () => {
                         </div>
 
                         {
-                            searchApps.length > 0 ? (<div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4'>
+                            searchApps.length > 0 ? (<div className='lg:max-w-[1440px] md:max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4'>
                                 {
                                     searchApps.map(app => (
                                         <AppsCards key={app.id} app={app}></AppsCards>

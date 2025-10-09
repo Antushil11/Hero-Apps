@@ -26,7 +26,7 @@ const Home = () => {
                 loading ? (<LoadingSpinner></LoadingSpinner>) : (
                     <>
                         <div className='text-center'>
-                            <h1 className='text-[72px] font-semibold'>We Build <br /><span className='text-[#632ee3] font-bold'>Productive</span> Apps</h1>
+                            <h1 className='text-[40px] lg:text-[72px] md:text-[72px] font-semibold'>We Build <br /><span className='text-[#632ee3] font-bold'>Productive</span> Apps</h1>
                             <p className='text-gray-600'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br />
                                 Our goal is to turn your ideas into digital experiences that truly make an impact.
                             </p>
@@ -46,7 +46,7 @@ const Home = () => {
 
                         <div className='bg-linear-to-r from-[#632ee3] to-[#9f62f2] text-white'>
                             <div className='flex justify-center items-center flex-col max-w-full '>
-                                <h1 className='mt-20 text-5xl text-center '>Trusted by Millions, Built for You</h1>
+                                <h1 className='mt-20 text-[40px]  lg:text-5xl text-center '>Trusted by Millions, Built for You</h1>
 
                                 <div className='flex lg:items-center lg:justify-center  md:items-center md:justify-center gap-6 mt-10 mb-20'>
                                     <div className=' flex flex-col lg:items-center lg:justify-center  md:items-center md:justify-center lg:max-w-[342px] p-4'>
@@ -72,7 +72,7 @@ const Home = () => {
 
                         <div>
                             <div className='text-center mt-20 mb-4'>
-                                <h1 className='font-bold text-5xl mb-2'>Trending Apps</h1>
+                                <h1 className='font-bold md:text-4xl text-[40px] lg:text-5xl mb-2'>Trending Apps</h1>
                                 <p className='text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
                             </div>
                             <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4'>

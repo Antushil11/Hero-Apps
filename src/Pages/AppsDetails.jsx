@@ -16,7 +16,7 @@ const AppsDetails = () => {
 
     if (loading) return <p>Loading ...... </p>;
 
-    const { title, image, downloads, ratingAvg,companyName } = app;
+    const { title, image, downloads, ratingAvg,companyName,size } = app;
 
     const handleAddToInstallation = () => {
         const existingList = JSON.parse(localStorage.getItem('installation'));
@@ -35,29 +35,29 @@ const AppsDetails = () => {
 
     return (
         <div className=" max-w-[1440px] mx-auto ">
-            <div className='flex gap-4  p-8'>
+            <div className='lg:flex md:flex gap-4  p-8'>
                 <Toaster position="top-right" reverseOrder={false} />
                 <figure className='bg-white '>
                     <img className='w-80' src={image} alt={title} />
                 </figure>
                 <div className="w-full p-4">
-                    <h2 className="text-left text-[32px] font-bold">{title}</h2>
+                    <h2 className="text-left text-[20px] lg:text-[32px] md:text-[28px] font-bold">{title}</h2>
                     <p className='text-gray-500 '>
                         Developed by <span className='font-semibold text-transparent bg-clip-text bg-linear-to-r from-[#632ee3] to-[#9f62f2]'>{companyName}</span>
                     </p>
                     <p className='border-t-1 text-gray-400  max-w-full my-2'></p>
-                    <div className="card-actions flex p-2 gap-16  my-4">
-                        <div className="flex flex-col items-center">
+                    <div className="card-actions flex p-2 lg:gap-16 md:gap-10 gap-4 my-4">
+                        <div className="flex lg:flex-col gap-2 md:flex-col items-center">
                             <img src={download} alt="" />
                             <h4>Downloads</h4>
                             <h1 className='text-4xl font-bold'>{downloads}</h1>
                         </div>
-                        <div className="flex flex-col items-center">
+                        <div className="flex lg:flex-col gap-2 md:flex-col items-center">
                             <img src={star} alt="" />
                             <h4>Average Ratings</h4>
                             <h1 className='text-4xl font-bold'>{ratingAvg}</h1>
                         </div>
-                        <div className="flex flex-col items-center">
+                        <div className="flex lg:flex-col gap-2 md:flex-col items-center">
                             <img src={review} alt="" />
                             <h4>Total Reviews</h4>
                             <h1 className='text-4xl font-bold'>{ratingAvg}K</h1>
@@ -68,7 +68,7 @@ const AppsDetails = () => {
                         className='btn mt-4 text-white bg-[#00d390]'
                         disabled={installed}
                     >
-                        {installed ? 'Installed' : 'Install Now (291 MB)'}
+                        {installed ? 'Installed' : `Install Now (${size}) MB`}
                     </button>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const AppsDetails = () => {
 
             {/* chart */}
             <div className='space-y-4'>
-                <h3 className='font-semibold text-2xl'>Rating</h3>
+                <h3 className='font-semibold text-2xl ml-2'>Rating</h3>
 
                 <div className=' rounded-xl p-4 h-90'>
                     <ResponsiveContainer width="100%" height="100%">
@@ -104,8 +104,8 @@ const AppsDetails = () => {
 
 
             <div>
-                <h2 className='font-semibold text-2xl mb-6 '>Description</h2>
-                <p className='mb-6'>{app.description}</p>
+                <h2 className='font-semibold text-2xl mb-2 ml-2'>Description</h2>
+                <p className='mb-6 p-4'>{app.description}</p>
             </div>
 
 
