@@ -22,7 +22,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <a className=" flex items-center text-xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#632ee3] to-[#9f62f2] "><img className='max-w-10' src={logo} alt="" />HERO.IO</a>
+                    <a href='/' className=" flex items-center text-xl font-bold text-transparent bg-clip-text bg-linear-to-r from-[#632ee3] to-[#9f62f2] "><img className='max-w-10' src={logo} alt="" />HERO.IO</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

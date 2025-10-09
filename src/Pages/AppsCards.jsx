@@ -4,7 +4,7 @@ import star from "../../public/Images/icon-ratings.png"
 import { Link } from 'react-router';
 
 const AppsCards = ({ app }) => {
-    console.log(app)
+    // console.log(app)
     const { downloads, image, title, ratingAvg,id } = app
     return (
         <Link to={`/app/${id}`}>

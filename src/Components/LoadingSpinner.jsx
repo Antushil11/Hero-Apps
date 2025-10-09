@@ -1,10 +1,23 @@
 import React from 'react';
 
-const LoadingSpinner = () => {
+const LoadingSpinner = (count = 6) => {
     return (
-        <div>
-            <h2>Loading Spinner </h2>
-            
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mx-auto max-w-[1440px]'>
+
+            {
+                Array.from({ length: count }).map((_, index) => (
+                    <div key={index} className="flex w-52 flex-col gap-4">
+                        <span className="loading loading-dots loading-xs"></span>
+                        <span className="loading loading-dots loading-sm"></span>
+                        <span className="loading loading-dots loading-md"></span>
+                        <span className="loading loading-dots loading-lg"></span>
+                        <span className="loading loading-dots loading-xl"></span>
+
+                    </div>
+
+                ))}
+
+
         </div>
     );
 };
