@@ -63,7 +63,7 @@ const Installation = () => {
                                         className='select select-bordered'
                                         onChange={e => setSortOrder(e.target.value)}
                                     >
-                                        <option value="none">Sort by Downloads</option>
+                                        <option value="none">Sort by Size</option>
                                         <option value="downloads-asc">Low→High</option>
                                         <option value="downloads-dsc">High→Low</option>
                                     </select>
